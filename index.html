@@ -1,149 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="it">
-   
 <head>
- <link rel="icon" href="favicon.ico" type="image/x-icon">
-<style>
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.social-icons a {
-  font-size: 40px;
-  width: 60px;
-  height: 60px;
-  background-color: #111;
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s, transform 0.3s;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  background-color: #ff5722;
-  transform: scale(1.1);
-}
-
-</style>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LEVELUPBOBBY - Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            background-color: #0d0d0d;
-            color: #f2f2f2;
-            font-family: 'Poppins', sans-serif;
-        }
-        header, footer {
-            background: #1a1a1a;
-            text-align: center;
-            padding: 20px;
-            border-bottom: 2px solid #ff3c00;
-        }
-        header h1 {
-            font-family: 'Orbitron', sans-serif;
-            color: #ff3c00;
-            margin: 0;
-        }
-        header p {
-            color: #aaaaaa;
-        }
-        main {
-            padding: 60px 20px;
-            text-align: center;
-        }
-        h2 {
-            font-size: 28px;
-            color: #ff6f00;
-        }
-        p {
-            font-size: 18px;
-            color: #cccccc;
-        }
-        a {
-            color: #ff6f00;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 25px;
-            background: #ff3c00;
-            color: #fff;
-            border-radius: 6px;
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background: #ff6f00;
-        }
-        .social-links a {
-            margin: 0 10px;
-            font-size: 16px;
-        }
-        footer {
-            margin-top: 40px;
-            border-top: 2px solid #ff3c00;
-        }
-<style>
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.social-icons a {
-  font-size: 40px;
-  width: 60px;
-  height: 60px;
-  background-color: #111;
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s, transform 0.3s;
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  background-color: #ff5722;
-  transform: scale(1.1);
-}
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scopri le build consigliate da LEVELUPBOBBY per ogni fascia di prezzo, con link affiliati Amazon per ogni componente." />
+  <meta name="robots" content="index, follow" />
+  <title>LEVELUPBOBBY - Build Consigliate con Link Amazon</title>
+  <link rel="icon" href="levelupbobby_youtube_profile_high_contrast.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #a259ff;
+      --accent: #ff6a00;
+      --bg: #0d0d0d;
+      --text: #f0f0f0;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+    header {
+      background: linear-gradient(90deg, var(--accent), var(--primary));
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 20px var(--primary);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .build {
+      background: #1a1a1a;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #000;
+    }
+    .build h3 {
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+    .build a {
+      color: var(--accent);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .build a:hover {
+      text-shadow: 0 0 5px var(--accent);
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>LEVELUPBOBBY</h1>
-        <p>Build, Tech e Gaming</p>
-    </header>
-    <main>
-        <h2>Benvenuto su LEVELUPBOBBY </h2>
-        <p>Qui trovi le mie build consigliate, setup e gadget utili per portare il tuo gaming al livello successivo.</p>
-        <a class="btn" href="build.html">Scopri le mie build</a>
-      <div class="social-icons">
-  <div class="social-icons">
-  <a href="https://youtube.com/@levelupbobby?feature=shared" class="fa-brands fa-youtube" target="_blank" rel="noopener"></a>
-  <a href="https://www.tiktok.com/@levelupbobby22" class="fa-brands fa-tiktok"></a>
-</div>
+  <header>
+    <h1>LEVELUPBOBBY</h1>
+    <p>Build PC Ottimizzate con Link Amazon Affiliato</p>
+  </header>
 
+  <main>
+    <h2>Le Mie Build Consigliate</h2>
 
-    </main>
-    <footer>
-        <p>Contattami: <a href="mailto:contact@levelupbobby.com">contact@levelupbobby.com</a></p>
-    </footer>
+    <div class="build">
+      <h3>Build Budget - 1000€</h3>
+      <p>Perfetta per Fortnite 1080p 120FPS. <br />
+        <a href="#">[Inserisci Link Amazon Componenti]</a>
+      </p>
+    </div>
+
+    <div class="build">
+      <h3>Build Intermedia - 2000€</h3>
+      <p>Streaming, 1440p e giochi competitivi a 240FPS.<br />
+        <a href="#">[Inserisci Link Amazon Componenti]</a>
+      </p>
+    </div>
+
+    <div class="build">
+      <h3>Build Avanzata - 3000€</h3>
+      <p>La mia build personale: Ryzen 7800X3D + 4070 Ti Super.<br />
+        <a href="#">[Inserisci Link Amazon Componenti]</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 LEVELUPBOBBY – <a href="mailto:contact@levelupbobby.com">contact@levelupbobby.com</a></p>
+  </footer>
 </body>
 </html>
