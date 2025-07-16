@@ -49,29 +49,30 @@
       font-family: 'Poppins', sans-serif;
       line-height: 1.6;
       padding-bottom: 80px;
-    }
-     header {
-      background: linear-gradient(90deg, var(--accent), var(--primary));
       margin: 0;
       height: 100vh;
       display: flex;
-      align-items: center;   
+      align-items: center;  
       justify-content: center; 
+    }
+    header {
+      background: linear-gradient(90deg, var(--accent), var(--primary));
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 20px var(--primary);
     }
     header h1 {
       font-family: 'Orbitron', sans-serif;
-      color: var( --bg);
-       font-size: clamp(1.5rem, 5vw, 4rem);
+      font-size: clamp(1.5rem, 5vw, 4rem);
       
     }
     main {
-      max-width: 400px;
       margin: 40px auto;
       padding: 0 20px;
       text-align: center;
     }
     h2 {
-      font-size: 2rem;
+      font-size: clamp(1.5rem, 5vw, 4rem);
       color: var(--accent);
       margin-bottom: 20px;
     }
@@ -99,7 +100,7 @@
     }
     .social a {
       margin: 0 10px;
-      font-size: 1.8rem;
+      font-size: clamp(1.5rem, 5vw, 4rem);
       color: var(--primary);
       transition: 0.3s;
     }
