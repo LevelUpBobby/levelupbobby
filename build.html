@@ -1,86 +1,107 @@
-
 <!DOCTYPE html>
 <html lang="it">
-   
-<head> 
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scopri le build consigliate da LEVELUPBOBBY per ogni fascia di prezzo e prestazioni.">
     <title>LEVELUPBOBBY - Build Consigliate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-W8Fq+f2eKb+z0cR2VpR+0RV8oHqKVm6IYj4B6G0VKjJ2U4JmJzOq8ISr9m/3A0dzQWv8RSRXHe65lFbD6uOm3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
-            margin: 0;
             background-color: #0d0d0d;
-            color: #f2f2f2;
+            color: #f0f0f0;
             font-family: 'Poppins', sans-serif;
-        }
-        header, footer {
-            background: #1a1a1a;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            padding: 20px;
-            border-bottom: 2px solid #ff3c00;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6a00, #a259ff);
+            padding: 30px 20px;
+            color: white;
+            box-shadow: 0 0 20px #a259ff;
         }
         header h1 {
             font-family: 'Orbitron', sans-serif;
-            color: #ff3c00;
+            font-size: 3rem;
             margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #f0f0f0;
         }
         main {
             padding: 40px 20px;
         }
-        .build {
-            background: #1a1a1a;
-            padding: 20px;
-            margin-bottom: 30px;
-            border-left: 4px solid #ff6f00;
-            border-radius: 6px;
+        h2 {
+            color: #ff6a00;
+            font-size: 2rem;
+            margin-bottom: 20px;
         }
-        .build h2 {
-            color: #ff6f00;
+        ul {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+            padding: 0 20px;
         }
-        .build p {
-            color: #cccccc;
+        li {
+            margin-bottom: 15px;
         }
         a {
-            color: #ff6f00;
+            color: #a259ff;
             text-decoration: none;
-            font-weight: 600;
+        }
+        a:hover {
+            text-shadow: 0 0 5px #a259ff;
+        }
+        .btn {
+            background-color: #a259ff;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: 0.3s ease;
+            box-shadow: 0 0 10px #a259ff;
+        }
+        .btn:hover {
+            background-color: #ff6a00;
+            box-shadow: 0 0 15px #ff6a00;
         }
         footer {
-            margin-top: 40px;
-            border-top: 2px solid #ff3c00;
+            padding: 20px;
+            background-color: #111;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #ff6a00;
+        }
+        footer a:hover {
+            text-shadow: 0 0 5px #ff6a00;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Build Consigliate</h1>
+        <h1>LEVELUPBOBBY</h1>
+        <p>Build, Tech e Gaming</p>
     </header>
     <main>
-        <div class="build">
-            <h2>Build da 3000€</h2>
-            <p>La mia build personale. Prestazioni top per gaming e content creation.</p>
-            <p><a href="#">[Link Amazon - placeholder]</a></p>
-        </div>
-        <div class="build">
-            <h2>Build da 1500€</h2>
-            <p>Ottimo bilanciamento prezzo/prestazioni.</p>
-            <p><a href="#">[Link Amazon - placeholder]</a></p>
-        </div>
-        <div class="build">
-            <h2>Build da 1000€</h2>
-            <p>Ideale per Fortnite a 120 FPS stabili.</p>
-            <p><a href="#">[Link Amazon - placeholder]</a></p>
-        </div>
-        <div class="build">
-            <h2>Accessori e Gadget Consigliati</h2>
-            <p>Cuffie, tastiere, microfoni e altro ancora.</p>
-            <p><a href="#">[Link Amazon - placeholder]</a></p>
-        </div>
+        <h2>Build Consigliate</h2>
+        <p>Qui trovi una selezione di build ottimizzate per Fortnite e altri giochi competitivi.</p>
+        <ul>
+            <li><strong>Build 1000€ –</strong> Gioca a Fortnite in Full HD a 120 FPS <a href="#">[link Amazon placeholder]</a></li>
+            <li><strong>Build 2000€ –</strong> Per streaming e 1440p a 240 FPS <a href="#">[link Amazon placeholder]</a></li>
+            <li><strong>Build 3000€ –</strong> La mia build personale: 7800X3D + 4070 Ti Super <a href="#">[link Amazon placeholder]</a></li>
+        </ul>
+        <a class="btn" href="index.html"><i class="fas fa-arrow-left"></i> Torna alla home</a>
     </main>
     <footer>
-        <p><a href="/">Torna alla home</a></p>
+        <p>Contattami: <a href="mailto:contact@levelupbobby.com">contact@levelupbobby.com</a></p>
     </footer>
 </body>
 </html>
